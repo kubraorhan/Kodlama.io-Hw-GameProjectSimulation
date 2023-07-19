@@ -10,6 +10,11 @@ namespace GameProjectSimulation.Concrete
 {
     internal class CustomerManager : ICustomerService
     {
+        IUserValidationService _userValidationService;
+
+        public CustomerManager(IUserValidationService userValidationService) { 
+            _userValidationService = userValidationService;
+        }
         public void Add(Customer customer)
         {
             Console.WriteLine(customer.Name +" "+ customer.Surname + " added.");

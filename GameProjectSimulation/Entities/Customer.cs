@@ -14,6 +14,11 @@ namespace GameProjectSimulation.Entities
 
         public string Surname { get; set; }
 
+        public int BirthYear { get; set; }  
+
+        public long  IdentitiyNumber { get; set;}
+
+
 
     }
 }
