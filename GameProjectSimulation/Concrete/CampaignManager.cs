@@ -8,7 +8,7 @@ using GameProjectSimulation.Entities;
 
 namespace GameProjectSimulation.Concrete
 {
-    internal class CampaignManager : ICampaignManager
+    internal class CampaignManager : ICampaignService
     {
         public void Add(Campaign campaign)
         {

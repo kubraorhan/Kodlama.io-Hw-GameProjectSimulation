@@ -8,7 +8,7 @@ using GameProjectSimulation.Entities;
 
 namespace GameProjectSimulation.Concrete
 {
-    internal class CustomerManager : ICustomerManager
+    internal class CustomerManager : ICustomerService
     {
         public void Add(Customer customer)
         {

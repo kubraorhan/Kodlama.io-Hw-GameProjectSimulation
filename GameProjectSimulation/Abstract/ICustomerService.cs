@@ -7,12 +7,12 @@ using GameProjectSimulation.Entities;
 
 namespace GameProjectSimulation.Abstract
 {
-    internal interface ICampaignManager
+    internal interface ICustomerService
     {
-        public void Add(Campaign campaign);
+        public void Add(Customer customer);
 
-        public void Delete(Campaign campaign);
+        public void Delete(Customer customer);
 
-        public void Update(Campaign campaign);
+        public void Update(Customer customer);
     }
 }

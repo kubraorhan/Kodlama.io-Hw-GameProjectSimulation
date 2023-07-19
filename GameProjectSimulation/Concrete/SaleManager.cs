@@ -9,7 +9,7 @@ using GameProjectSimulation.Entities;
 
 namespace GameProjectSimulation.Concrete
 {
-    internal class SaleManager : ISaleManager
+    internal class SaleManager : ISaleService
     {
         public void Sale(Customer customer, Campaign campaign, Sale sale)
         {
